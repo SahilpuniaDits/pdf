@@ -4,4 +4,4 @@ from convert import index
 
 def initialize_routes(app):
     api = Api(app)
-    api.add_resource(index,'/api/pdf')
+    api.add_resource(index,'/api/pdf/<file>')
